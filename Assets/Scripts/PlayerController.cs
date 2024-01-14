@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
+        // Inbounds
         if (transform.position.x < -xRange)
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
@@ -32,6 +33,13 @@ public class PlayerController : MonoBehaviour
         if (transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        }
+
+
+        // Shoot Projectile(Foods)
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
     }
 }
