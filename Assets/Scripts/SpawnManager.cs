@@ -9,21 +9,18 @@ public class SpawnManager : MonoBehaviour
     private float lowerBound = -10f;
     private float spawnRangeX = 20;
     private float spawnPosZ = 20;
+    private float startDelay = 2;
+    private float spawnInterval = 1.5f;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            SpawnRandomAnimal();
-        }
-
         // Inbounds animals
         for (int i = instatiatedAnimals.Count - 1; i >= 0; i--)
         {
