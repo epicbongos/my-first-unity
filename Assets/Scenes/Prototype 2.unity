@@ -540,11 +540,28 @@ MonoBehaviour:
   speed: 10
   xRange: 24.5
   projectilePrefab: {fileID: 6254122685140160068, guid: e9a455eb2ba8f4344af5298c77d6dfa9, type: 3}
+--- !u!1 &874610018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6303803084516473664, guid: 1ad1e6deda6a64dce8f645b9696a1b75, type: 3}
+  m_PrefabInstance: {fileID: 6303803084317181474}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &874882742 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6303803084516188308, guid: 1ad1e6deda6a64dce8f645b9696a1b75, type: 3}
   m_PrefabInstance: {fileID: 6303803084317181474}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &884102638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874610018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523fbc925271b4844aad40068480dad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,7 +757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.293141
+      value: -7.79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -884,7 +901,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -7313743493347181108, guid: 15b25807ba9194f92b15a15382bb25ab, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 15b25807ba9194f92b15a15382bb25ab, type: 3}
 --- !u!1001 &1355349089264180928
 PrefabInstance:
@@ -998,7 +1016,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -577208751855451869, guid: 27ceb4c4a963641e992c38e244efacb9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 27ceb4c4a963641e992c38e244efacb9, type: 3}
 --- !u!1001 &6254122685833384843
 PrefabInstance:
@@ -1112,5 +1131,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Moose_02
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1576194746580096056, guid: 1ad1e6deda6a64dce8f645b9696a1b75, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1ad1e6deda6a64dce8f645b9696a1b75, type: 3}
