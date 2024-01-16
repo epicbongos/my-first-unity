@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animalPrefabs;
     private List<GameObject> instatiatedAnimals = new List<GameObject>();
-    private float lowerBound = -10f;
+    public float lowerBound = -100f;
     private float spawnRangeX = 20;
     private float spawnPosZ = 20;
     private float startDelay = 2;
@@ -21,16 +21,7 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Inbounds animals
-        for (int i = instatiatedAnimals.Count - 1; i >= 0; i--)
-        {
-            GameObject currentAnimal = instatiatedAnimals[i];
-            if (currentAnimal.transform.position.z < lowerBound)
-            {
-                Destroy(currentAnimal);
-                instatiatedAnimals.RemoveAt(i);
-            }
-        }
+
     }
     void SpawnRandomAnimal()
     {
