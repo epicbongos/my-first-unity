@@ -59,9 +59,9 @@ Provide step-by-step instructions on how to install or set up the project. Inclu
 
 ### Screenshots
 
-![[2.3-lesson.png|300]]  
-![[2-challenge.png|300]]  
-![[1-challenge.png|300]]
+![2 3-lesson](https://github.com/epicbongos/my-first-unity/assets/46396604/00dd0619-ceec-4183-8d4e-a5132cb622c6)
+<img width="905" alt="2-challenge" src="https://github.com/epicbongos/my-first-unity/assets/46396604/eae2052a-7337-428d-bcbb-3abe992aa828">
+![1-challenge](https://github.com/epicbongos/my-first-unity/assets/46396604/514403eb-45d4-49e4-84aa-b4565cff80f6)
 
 ## Learning Journey
 
